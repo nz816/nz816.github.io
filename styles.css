@@ -1,8 +1,9 @@
 h2{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-    font-size: 35px;
+    font-size: 45px;
     text-decoration: none;
+    padding: 30px 8px 6px 8px;
 }
 
 p{
@@ -13,15 +14,19 @@ p{
 
 .nav-bar{
     padding: 6px 8px 6px 16px;
+    height: 35px;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(255, 240, 199);
     text-align: center;
-    font-family: 'calibri';
+    text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
+    letter-spacing: 3px;
 }
 
 .nav-bar a:visited {
+    text-decoration: none;
     color: gray;
+    
   }
