@@ -1,0 +1,27 @@
+body{
+    /* background-color: rgb(225, 237, 245); */
+    background-image: url("tile_background4.png");
+    background-repeat: repeat;
+    
+}
+
+h2{
+    color: rgb(9,54,84);
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 55px;
+    margin: 0;
+    padding: 0;
+}
+
+.alert{
+    padding: 0px 50px 6px 50px;
+    font-family: 'Bungee', cursive;
+    color: rgb(9,54,84);
+}
+
+marquee{
+    display: flex;
+    justify-content: space-between;
+}
+

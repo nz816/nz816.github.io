@@ -2,10 +2,94 @@
 
     <head>
         <link rel="stylesheet" href="./styles.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Bungee&family=Bungee+Shade&family=Concert+One&family=Permanent+Marker&display=swap" rel="stylesheet">
 
+        <title>So You Wanna Vote?</title>
     </head>
     <body>
+        <h2>🗳️ So You Wanna Vote? 🗳️</h2>
+
+        <div class="alert">
+            <marquee bgcolor="#ededed">
+                <span>REGISTRATION FOR THE NOVEMBER 2020 ELECTION HAS ENDED!</span>
+                <span>OCTOBER 27TH IS THE LAST DAY TO APPLY FOR AN ABSENTEE BALLOT!</span>
+            </marquee>
+        </div>
+
+        <div class="flex_grid">
+            <div class="col">
+                <a href="register.html">REGISTER TO VOTE</a>
+            </div>
+            <div class="col">
+                <a href="registration_status.html">CHECK YOUR REGISTRATION STATUS</a>
+            </div>
+            <div class="col">
+                <a href="absentee_ballot.html">REQUEST YOUR ABSENTEE BALLOT</a>
+            </div>
+        </div>
+
+        <div class="flex_grid">
+            <div class="col">
+                <a href="first_time_voter.html">FIRST TIME VOTER INFO</a>
+            </div>
+            <div class="col">
+                <a href="ineligible.html">INELIGIBLE TO VOTE?</a>
+            </div>
+            <div class="col">
+                <a href="why_you_should_vote.html">WHY YOU SHOULD VOTE</a>
+            </div>
+        </div>
+
+        <div class="important_dates">
+            <div class="important_dates_title">Important Dates</div>
+        </div>
+
 
     </body>
+
+    <style>
+        .flex_grid{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            font-family: 'Permanent Marker', cursive;
+            padding: 20px 50px 10px 50px;
+            
+        }
+
+        .flex_grid .col{
+            width: 32%;
+            background-color: rgb(225, 237, 245);
+            
+            font-size: 32px;
+            border-radius: 5px;
+            box-shadow: 12px 12px 2px 1px rgba(71, 149, 201, .2);
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .flex_grid a{
+            color: rgb(9,54,84);
+            text-decoration: none;
+        }
+
+        .important_dates{
+            padding: 0px 50px 6px 50px;
+            
+        }
+
+        .important_dates_title{
+            color: rgb(9,54,84);
+            font-family: 'Bungee Shade', cursive;
+            font-size: 35px;
+            padding: 10px 0px 0px 0px;
+        }
+
+        .important_dates_p{
+
+        }
+    </style>
 
 </html>
