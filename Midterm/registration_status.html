@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="./styles.css" />
         <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Bungee&family=Bungee+Shade&family=Concert+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="apple-touch-icon" href="favicon.ico">
 
@@ -19,17 +20,34 @@
             </marquee>
         </div>
 
+        <div class="nav-container">
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="register.html">Register To Vote</a>
+                <a href="registration_status.html">Check Your Registration Status</a>
+                <a href="absentee_ballot.html">Request Your Absentee Ballot</a>
+                <a href="voting_plan.html">Make Your Voting Plan</a>
+                <a href="ineligible.html">Ineligible To Vote?</a>
+                <a href="why_you_should_vote.html">Why You Should Vote!</a>
+                
+            </div>
+        </div>
+
         <div class="page-container">
             <div class="page-title">
                 Check Your Registration Status
             </div>
+            <br>
             <div class="page-details">
-                Checking your voter registration status takes no more than 30 seconds!
-                <br>To confirm you're registered to vote in the upcoming election, check your voter registration status <a href="https://www.nass.org/can-I-vote/voter-registration-status">here</a>. 
+                <p style="font-size:30px"> Checking your voter registration status takes no more than 30 seconds!</p>
+                <img src="https://media3.giphy.com/media/111ebonMs90YLu/200w.gif" style="width:25%;">
+                <br>
+                <br>
+                To confirm you're registered to vote in the upcoming election, check your voter registration status <a href="https://www.nass.org/can-I-vote/voter-registration-status" target="_blank">here</a>. 
                 You can also verify your polling location and political party, if applicable.
                 <br>
                 <p></p>
-                    Need to make changes to your registration? (Remember to submit changes before the registration deadline!) You can make changes online <a href="https://voterreg.dmv.ny.gov/MotorVoter/">here</a>.
+                    Need to make changes to your registration? You can make changes online <a href="https://voterreg.dmv.ny.gov/MotorVoter/" target="_blank">here</a>. Remember to submit changes before the registration deadline!
                 </div>
                 
             </div>
@@ -39,21 +57,20 @@
 
     <style>
         .page-container{
-            padding: 0px 50px 6px 50px;
+            padding: 0px 50px 0px 50px;
         }
 
         .page-title{
             color: white;
-            font-family: 'Permanent Marker', cursive;
+            font-family: 'Bungee Shade', cursive;
             font-size: 35px;
-            padding: 0px 0px 0px 0px;
             text-align: center;
             border-radius: 5px;
             background-color: rgb(9,54,84, .8);
         }
 
         .page-details{
-            font-family: 'Bungee', cursive;
+            font-family: 'Balsamiq Sans', cursive;
             color: rgb(47, 100, 135);
             font-size: 25px;
             text-align: center;
@@ -61,6 +78,10 @@
 
         .page-details a{
             color: rgb(47, 100, 135);
+        }
+
+        .page-details a:hover{
+            color: rgb(102, 131, 150);
         }
         
     </style>

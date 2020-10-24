@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="./styles.css" />
         <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Bungee&family=Bungee+Shade&family=Concert+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="apple-touch-icon" href="favicon.ico">
 
@@ -36,6 +37,7 @@
             <div class="page-title">
                 New York State Voter Registration
             </div>
+            <br>
             <div class="page-qualifications">
                 In order to vote you must:
                 <br>
@@ -61,13 +63,14 @@
                     <br>
                     ➡️Don't want to change out of your comfy pajamas and leave the confines of your home? No problem.
                     <br>
-                        You can print out the <a href="https://www.elections.ny.gov/NYSBOE/download/voting/voteregform-eng-fillable.pdf">New York State Voter Registration Form</a>, fill it out, sign it (make sure it's not a digital signature!), 
-                        and address it to your county board of elections. The address for your county board of elections can be found on the form or <a href="https://www.elections.ny.gov/CountyBoards.html">here</a>!
+                        You can print out the <a href="https://www.elections.ny.gov/NYSBOE/download/voting/voteregform-eng-fillable.pdf" target="_blank">New York State Voter Registration Form</a>, fill it out, sign it (make sure it's not a digital signature!), 
+                        and address it to your county board of elections. The address for your county board of elections can be found on the form or <a href="https://www.elections.ny.gov/CountyBoards.html" target="_blank">here</a>!
                     <br>
                     ➡️No printer? That's also fine!
                     <br>
-                        You can request a registration form by mail <a href="https://www.elections.ny.gov/VoterRegSite/VoterRegistration">here</a> or call <b>1-800-FOR-VOTE</b> to request a form. 
+                        You can request a registration form by mail <a href="https://www.elections.ny.gov/VoterRegSite/VoterRegistration" target="_blank">here</a> or call <b>1-800-FOR-VOTE</b> to request a form. 
                 </div>
+                <br>
                 ❌ No? Don't sweat it.
                 <div class="page-info">
                     You can still have your voice heard! Visit <a href="ineligible.html">here</a> for more information.
@@ -76,6 +79,13 @@
             </div>
 
         </div>
+
+        <br>
+
+        <div class="form">
+            <iframe src="registration_form.pdf" width="80%" height="800px"></iframe>
+        </div>
+        
 
     </body>
 
@@ -86,7 +96,7 @@
 
         .page-title{
             color: white;
-            font-family: 'Permanent Marker', cursive;
+            font-family: 'Bungee Shade', cursive;
             font-size: 35px;
             padding: 10px 50px 10px 50px;
             text-align: center;
@@ -95,12 +105,16 @@
         }
 
         .page-qualifications{
-            font-family: 'Bungee', cursive;
+            font-family: 'Balsamiq Sans', cursive;
+            font-size: 20px;
+            line-height: 180%;
             color: rgb(9,54,84);
         }
 
         .page-details{
-            font-family: 'Bungee', cursive;
+            font-family: 'Balsamiq Sans', cursive;
+            font-size: 20px;
+            line-height: 180%;
             color: rgb(47, 100, 135);
         }
 
@@ -111,6 +125,14 @@
 
         .page-info a{
             color: rgb(47, 100, 135);
+        }
+
+        .page-info a:hover{
+            color: rgb(102, 131, 150);
+        }
+
+        .form{
+            text-align: center;
         }
         
     </style>

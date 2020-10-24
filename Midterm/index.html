@@ -3,11 +3,9 @@
     <head>
         <link rel="stylesheet" href="./styles.css" />
         <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Bungee&family=Bungee+Shade&family=Concert+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="apple-touch-icon" href="favicon.ico">
-
-
-
         <title>So You Wanna Vote?</title>
     </head>
     <body>
@@ -44,16 +42,37 @@
             </div>
         </div>
         <br>
-        <div class="important_dates">
-            <div class="important_dates_title">Important Dates</div>
-            <div class="important_dates_p">
-                <ul>
-                    <li>October 27: Last day to apply online, by email, fax or to postmark an application or letter of application by mail for an absentee ballot.</li>
-                    <li>November 2: Last day to apply IN-PERSON for absentee ballot.</li>
-                    <li>November 3: Last day to postmark ballot. Must be received by the local board of elections no later than Nov. 10th. Military Voter Ballots must be received no later than Nov. 16th.</li>
-                    <li>November 3: Last day to deliver ballot IN-PERSON to the local board of elections or to any poll site.</li>
-                </ul>
+
+        
+        
+
+        <div class="important_dates_container">
+            <div class="important_dates_title">📅 Important Dates 📅</div>
+
+            <div class="important_dates_grid">
+                <div class="important_dates_dates">October 24</div>
+                <div class="important_dates_p">Early voting begins.</div>
             </div>
+
+            <div class="important_dates_grid">
+                <div class="important_dates_dates">October 27</div>
+                <div class="important_dates_p">Last day to apply online, by email, fax or to postmark an application or letter of application by mail for an absentee ballot.</div>
+            </div>
+
+            <div class="important_dates_grid">
+                <div class="important_dates_dates">November 2</div>
+                <div class="important_dates_p">Last day to apply IN-PERSON for absentee ballot.</div>
+            </div>
+
+            <div class="important_dates_grid">
+                <div class="important_dates_dates">November 3</div>
+                <div class="important_dates_p">Last day to postmark absentee ballot. Also the last day to deliver IN-PERSON to the local board of elections or to any poll site.</div>
+            </div>
+
+            <div class="important_dates_grid">
+
+            </div>
+
         </div>
 
         <div class="countdown">
@@ -67,7 +86,7 @@
             display: flex;
             justify-content: space-between;
             text-align: center;
-            font-family: 'Permanent Marker', cursive;
+            font-family: 'Balsamiq Sans', cursive;
             padding: 20px 50px 10px 50px;
             
         }
@@ -75,7 +94,6 @@
         .flex_grid .col{
             width: 32%;
             background-color: rgb(225, 237, 245);
-            
             font-size: 32px;
             border-radius: 5px;
             box-shadow: 12px 12px 2px 1px rgba(71, 149, 201, .2);
@@ -90,9 +108,12 @@
             text-decoration: none;
         }
 
-        .important_dates{
-            padding: 0px 50px 6px 50px;
-            
+        .flex_grid a:hover{
+            color: rgb(102, 131, 150);
+        }
+
+        .important_dates_container{
+            padding: 0px 50px 10px 50px;
         }
 
         .important_dates_title{
@@ -101,14 +122,29 @@
             border-radius: 5px;
             font-family: 'Bungee Shade', cursive;
             font-size: 35px;
-            padding: 0px 0px 0px 0px;
             text-align: center;
         }
 
-        .important_dates_p{
-            font-family: 'Bungee', cursive;
-            font-size: 20px;
+        .important_dates_grid{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 50px 10px 50px;
+        }
+
+        .important_dates_dates{
+            font-family: 'Balsamiq Sans', cursive;
+            font-size: 30px;
             color: rgb(9,54,84);
+            line-height: 150%;
+            
+        }
+
+        .important_dates_p{
+            width: 88%;
+            font-family: 'Balsamiq Sans', cursive;
+            font-size: 30px;
+            color: rgb(9,54,84);
+            line-height: 150%;
             
         }
 
