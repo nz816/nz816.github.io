@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="./styles.css" />
         <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Bungee&family=Bungee+Shade&family=Concert+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="apple-touch-icon" href="favicon.ico">
 
@@ -19,11 +20,118 @@
             </marquee>
         </div>
 
+        <div class="nav-container">
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="register.html">Register To Vote</a>
+                <a href="registration_status.html">Check Your Registration Status</a>
+                <a href="absentee_ballot.html">Request Your Absentee Ballot</a>
+                <a href="voting_plan.html">Make Your Voting Plan</a>
+                <a href="ineligible.html">Ineligible To Vote?</a>
+                <a href="why_you_should_vote.html">Why You Should Vote!</a>
+                
+            </div>
+        </div>
+        
+        <div class="page-container">
+            <div class="page-title">Make Your Voting Plan</div>
+            <div class="page-details">
+                <br>
+                <div class="page-important">
+                What is a voting plan? Simply put, it's figuring out how and when you will vote. 
+                Making a voting plan is important because research shows that those who make a voting plan are more likely to actually vote. 
+                </div>
+                <br>
+                To make this process easier, use this checklist to help make your voting plan:
+
+                <div class="two-checklists">
+                    <div class="checklist">
+                    🗳️ Will you be voting in-person? If yes:
+                        <br>
+                        <input type = "checkbox" style="margin-left: 40px">Are you registered to vote?<br>
+                        <input type = "checkbox" style="margin-left: 40px">Have you checked your registration status? (Make sure all information is up-to-date and correct!)<br>
+                        <input type = "checkbox" style="margin-left: 40px">Will you be voting early or on election day?<br>
+                        <input type = "checkbox" style="margin-left: 40px">Do you know where your poll site is?<br>
+                        <input type = "checkbox" style="margin-left: 40px">Do you know the hours of your poll site?<br>
+                        <input type = "checkbox" style="margin-left: 40px">What time will you be voting?<br>
+                        <input type = "checkbox" style="margin-left: 40px">How will you get to your poll site?<br>
+                        <input type = "checkbox" style="margin-left: 40px">Do you need ID to vote? (You may be required to show
+                        proof of identification if you did not provide either a state-issued ID number or the last four digits
+                        of your Social Security Number when you registered to vote.)<br>
+
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="checklist">
+                    ✉️ Will you be voting by mail? If yes:
+                        <br>
+                        <input type = "checkbox" style="margin-left: 40px">Have you requested your absentee ballot?<br>
+                        <input type = "checkbox" style="margin-left: 40px">Will you be mailing your ballot or dropping it off?<br>
+                        <input type = "checkbox" style="margin-left: 40px">Have you mailed your ballot or dropped your ballot off at 
+                        a poll site or your local County Boards of Elections Office?<br>
+
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="page-important">If you are planning to vote or drop off your ballot in person, remember to wear a mask 
+                    and protect our poll workers!
+                </div>
+
+            </div>
+        </div>
+
     </body>
 
     <style>
+        .page-container{
+            padding: 0px 50px 0px 50px;
+        }
 
+        .page-title{
+            color: white;
+            font-family: 'Bungee Shade', cursive;
+            font-size: 35px;
+            padding: 0px 0px 0px 0px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: rgb(9,54,84, .8);
+        }
+
+        .page-important{
+            font-family: 'Bungee', cursive;
+            color: rgb(134, 20, 20);
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .page-details{
+            font-family: 'Balsamiq Sans', cursive;
+            color: rgb(47, 100, 135);
+            font-size: 22px;
+            line-height: 150%;
+        }
+
+        .page-details a{
+            color: rgb(47, 100, 135);
+        }
+
+        .page-details a:hover{
+            color: rgb(102, 131, 150);
+        }
         
+        .two-checklists{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0px 10px 0px;
+        }
+
+        .checklist{
+            padding: 0px 0px 0px 50px;
+            width: 50%;
+        }
     </style>
 
 </html>
