@@ -20,6 +20,12 @@ h2{
     padding: 0;
 }
 
+@media only screen and (max-width: 800px) {
+    h2 {
+        font-size: 30px;
+    }
+}
+
 h2 a{
     color: rgb(9,54,84);
     text-decoration: none;
