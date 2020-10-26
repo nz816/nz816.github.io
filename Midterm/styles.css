@@ -5,6 +5,12 @@ body{
     
 }
 
+@media only screen and (max-width: 800px) {
+    body {
+      background-image: url(tile_background6.png);
+    }
+  }
+
 h2{
     color: rgb(9,54,84);
     text-align: center;
