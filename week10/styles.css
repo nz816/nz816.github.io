@@ -15,6 +15,7 @@ h2{
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    text-align: center;
 }
 
 .grid_thing{
@@ -22,15 +23,19 @@ h2{
 }
 
 button{
-    border-radius: 300px;
-    width: 300px;
-    height: 300px;
+    border-radius: 350px;
+    width: 350px;
+    height: 350px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Public Sans', sans-serif;
     font-size: 16px;
+    text-align: center;
 }
 
-text{
-
+.text{
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
 }

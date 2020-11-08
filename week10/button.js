@@ -24,35 +24,35 @@ theButton7.addEventListener('click', changeText7);
 
 function changeText1(){
     console.log("click detected!");
-    document.querySelector('button[name="button1"]').textContent = "you pressed the button1!";
+    document.querySelector('button[name="button1"]').textContent = "'How much do you make? Have you ever contemplated suicide? Are you now or have you ever been... ? Are you aware of the fact...? I have here before me.... Electrical information devices for universal, tyrannical womb-to-tomb surveillance are causing a very serious dilemma between our claim to privacy and the community's need to know.'";
 }
 
 function changeText2(){
     console.log("click detected!");
-    document.querySelector('button[name="button2"]').textContent = "you pressed the button2!";
+    document.querySelector('button[name="button2"]').textContent = "'Character no longer is shaped by only two earnest, fumbling experts. Now all the world's a sage.'";
 }
 
 function changeText3(){
     console.log("click detected!");
-    document.querySelector('button[name="button3"]').textContent = "you pressed the button3!";
+    document.querySelector('button[name="button3"]').textContent = "'Its message is Total Change, ending psychic, social, economic, and political parochialism.'";
 }
 
 function changeText4(){
     console.log("click detected!");
-    document.querySelector('button[name="button4"]').textContent = "you pressed the button4!";
+    document.querySelector('button[name="button4"]').textContent = "'Today's child is growing up absurd, because he lives in two worlds, and neither of them inclines him to grow up.'";
 }
 
 function changeText5(){
     console.log("click detected!");
-    document.querySelector('button[name="button5"]').textContent = "you pressed the button5!";
+    document.querySelector('button[name="button5"]').textContent = "'When this circuit learns your job, what are you going to do?'";
 }
 
 function changeText6(){
     console.log("click detected!");
-    document.querySelector('button[name="button6"]').textContent = "you pressed the button6!";
+    document.querySelector('button[name="button6"]').textContent = "'Politics offers yesterday's answers to today's questions.'";
 }
 
 function changeText7(){
     console.log("click detected!");
-    document.querySelector('button[name="button7"]').textContent = "you pressed the button7!";
+    document.querySelector('button[name="button7"]').textContent = "'In an electric information environment, minority groups can no longer by contained - ignored.'";
 }
