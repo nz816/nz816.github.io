@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(48, 95, 103);
+
+}
+
+.carousel{
+    width: 800px;
+    margin: auto;
+}
+
+.carousel-container{
+    height: 550px;
+}
+
+.jumbotron{
+    background-color: rgb(48, 95, 103);
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.loading{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-4{
+    
+    font-size: 30px;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+}
