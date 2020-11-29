@@ -1,0 +1,19 @@
+body{
+    background: url(https://64.media.tumblr.com/5da0d74c3f4aa751de09fd7003df81fc/tumblr_inline_mkjkxaBm2t1qz4rgp.png) center repeat;
+}
+
+.proposal-container{
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.technical{
+    padding: 50px;
+    font-size: 20px;
+    font-family: 'Castoro', serif;
+}
+
+
+
