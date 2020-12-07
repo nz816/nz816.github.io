@@ -14,6 +14,20 @@ body{
     background-color: rgb(249, 239, 235);
 }
 
+.message{
+    text-align: center;
+    font-family: Sparkle;
+    font-size: 50px;
+    padding: 50px;
+    color: rgb(233, 151, 56);
+    text-shadow: 4px 4px rgb(241, 207, 195);
+    display: none;
+}
+
+.submission{
+    display: none;
+}
+
 .submission-container{
     background-color: rgb(241, 207, 195);
     box-shadow: 10px 10px 5px gray;
@@ -48,9 +62,7 @@ button:hover{
     background-color: rgb(242, 186, 167);
 }
 
-.submission{
-    display: none;
-}
+
 
 .expand-one{
     font-size: 50px;
@@ -59,10 +71,10 @@ button:hover{
 
 .flowerToggle{
     text-align: center;
-    
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #grid{

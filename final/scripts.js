@@ -12,5 +12,13 @@ $(".btn").click(function(){
     $("#" + count).text($("#affirmationInput").val());
 
     $("#flower-image").attr("src","image" + String(count+1) + ".png")
+
+    if(count == 6){
+        $('.message').show();
+        $('.submission-container').remove();
+    } 
 }
 );
+
+
+
