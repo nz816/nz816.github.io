@@ -1,0 +1,48 @@
+@font-face{
+    font-family: Sparkle;
+    src: url(Sparkle.otf);
+}
+
+@font-face{
+    font-family: FloralOne;
+    src: url(FloralOne.ttf);
+}
+
+/* font-family: 'Goudy Bookletter 1911', serif; */
+
+body{
+    background-color: rgb(249, 239, 235);
+}
+
+.welcome{
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 100px;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* border-style: dashed; */
+}
+
+.welcome_button{
+    height: 60%;
+    padding-top: 50px;
+    /* border-style: dashed; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+button{
+    font-family: FloralOne;
+    background-color: rgb(241, 207, 195);
+    width: 400px;
+    height: 150px;
+    font-size: 80px;
+    border-radius: 100px;
+}
+
+button:hover{
+    background-color: rgb(242, 186, 167);
+}
