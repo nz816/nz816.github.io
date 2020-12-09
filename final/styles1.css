@@ -66,7 +66,7 @@ button:hover{
 
 .expand-one{
     font-size: 50px;
-    width: 50%;
+    
 }
 
 .flowerToggle{
@@ -74,7 +74,13 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    font-family: Sparkle;
+    padding-top: 20px;
+}
+
+.flowerToggle a{
+    color: black;
+    font-size: 30px;
 }
 
 #grid{
@@ -94,6 +100,14 @@ button:hover{
     
 }
 
+.petalImage{
+    animation-name: spin;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: none;
+}
+
 .affirmation{
     background-color: rgb(241, 207, 195);
     border-radius: 50px;
@@ -104,6 +118,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: space-around;
 }
 
 .affirmation-container{
@@ -120,4 +135,28 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.footer{
+    text-align: center;
+    padding: 5px;
+    font-family: sparkle;
+    display: none;
+}
+
+.footer a{
+    color: black;
+}
+
+.footer a:hover{
+    color: gray;
 }
