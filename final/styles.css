@@ -1,3 +1,5 @@
+
+
 @font-face{
     font-family: Sparkle;
     src: url(Sparkle.otf);
@@ -45,4 +47,26 @@ button{
 
 button:hover{
     background-color: rgb(242, 186, 167);
+}
+
+/* yay web responsiveness */
+
+@media only screen and (max-width: 1000px) {
+    .welcome{
+        font-size: 80px;
+    }
+
+    button{
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .welcome{
+        font-size: 50px;
+    }
+
+    button{
+        font-size: 60px;
+    }
 }
