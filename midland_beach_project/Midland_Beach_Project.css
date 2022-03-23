@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{
+		margin: 0 auto;
+		overflow: hidden;
+		padding-bottom: 20px;
+		
+	}
+
+.header h1 {
+	text-align: center;
+	font-family: 'Hurricane', cursive;
+	font-size: 100px;
+	margin-bottom: 10px;
+}
+
+.header a{
+	text-decoration: none;
+	color: #6696c4;
+}
+
+.header a:hover{
+	color: #38648f;
+}
+
+nav {
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+	font-family: system-ui;
+	font-size: 24px;
+	background-color: #92b3d4;
+	padding: 10px 10px 10px 10px;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: gray;
+	text-decoration: none;
+}
+	
+h2{
+	font-family: system-ui;
+}
+	
+p{
+	font-family: system-ui;
+}
